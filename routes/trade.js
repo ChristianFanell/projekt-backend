@@ -40,6 +40,4 @@ router.post('/mymetals',
 
 // router.get('/sellhistory', (req, res) => trade.getSellHistory(res, req.body));
 
-// router.post('/sell', (req, res) => res.send('FITTTA'));
-
 module.exports = router;
