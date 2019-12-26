@@ -1,0 +1,4 @@
+utilinfo.txt
+node_modules
+*.sqlite
+.env
