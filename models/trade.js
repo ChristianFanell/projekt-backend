@@ -95,7 +95,6 @@ const me = {
     },
 
     buyMetals(res, body) {
-      console.log(body)
         let id = body.id;//email
         let amount = body.amount;
         let quantity = body.quantity;

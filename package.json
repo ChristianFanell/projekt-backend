@@ -4,7 +4,8 @@
   "description": "Backend for school project\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[API\u001b[3~\u001b[3~\u001b[C\u001b[C\u001b[C\u001b",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "nyc --reporter=html --reporter=text --reporter=clover mocha --timeout 10000",
+
     "start": "nodemon app.js"
   },
   "author": "Christian Fanell",
